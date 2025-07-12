@@ -40,10 +40,10 @@ This project includes 2 model, a Feed Forward Neural Network (FFNN) to serve as 
                                                                                    |
                                                                                    | (loaded by API)
                                                                                    v
-+----------------+      +-------------------+      +-----------------+      +---------------------+
-| User Request   |----->|      Render       |----->|  Docker Container |----->|    FastAPI        |
-| (HTTP POST)    |      | (Cloud Hosting)   |      |  (API Environment)|      | (Prediction Logic)|
-+----------------+      +-------------------+      +-----------------+      +---------------------+
+                                                   +-------------------+      +-------------------+
+                                                   |  Docker Container |----->|    FastAPI        |
+                                                   |  (API Environment)|      | (Prediction Logic)|
+                                                   +-------------------+      +-------------------+
 ```
 
 
@@ -60,8 +60,8 @@ This path installs all packages required for data exploration, model training, a
 - **Clone the Repository:**
 
     ```bash
-    git clone https://github.com/your-username/FRAUD_DETECTION.git
-    cd FRAUD_DETECTION
+    git clone https://github.com/mickiem123/Fraud-Detection
+    cd Fraud-Detection
     ```
 - **Create and Activate a Virtual Environment:**
     ```bash
@@ -115,7 +115,7 @@ The foundation of the project is a thorough analysis of the dataset to uncover i
 
 #### A. Dataset Overview
 
-*   **Source:** `[Link to your data source, e.g., Google Drive]`
+*   **Source:** `https://github.com/Fraud-Detection-Handbook/simulated-data-raw`
 *   **Scope:** The dataset contains **1,754,155** transactions.
 *   **The Imbalance Problem:** A critical challenge is the severe class imbalance, with only **14,681** fraudulent transactions (0.84% of the data).
 *   **Target Variable:** The goal is to predict the `TX_FRAUD` column (1 for fraud, 0 for legitimate).

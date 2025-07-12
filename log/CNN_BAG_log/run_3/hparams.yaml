@@ -1,0 +1,6 @@
+current_tx_feature_size: 15
+embedding_dim: 16
+cnn_out_channels: 128
+cnn_kernel_size: 3
+expert_hidden_size: 512
+learning_rate: 0.001

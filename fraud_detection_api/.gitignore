@@ -1,0 +1,30 @@
+# A good, universal .gitignore
+
+# Python stuff
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.env
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+*.so
+
+# IDE / Editor stuff
+.vscode/
+.idea/
+*.swp
+
+# OS-specific
+.DS_Store
+
+# Large data/model files that shouldn't be in git
+# You manage these separately
+# data/
+# artifacts/

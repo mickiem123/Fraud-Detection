@@ -1,0 +1,24 @@
+# requirements.txt
+# Pinned versions for CPU-ONLY production deployment.
+
+# --- Tell pip to ALSO look in the PyTorch CPU index, in addition to the default PyPI ---
+--extra-index-url https://download.pytorch.org/whl/cpu
+
+# --- Core Web Framework & Server ---
+fastapi==0.115.13
+uvicorn==0.34.3
+gunicorn==22.0.0
+
+# --- Data Validation ---
+pydantic==2.11.7
+
+# --- Machine Learning & Data Manipulation ---
+torch==2.3.1
+lightning==2.3.0
+pandas==2.2.0
+numpy==1.26.0
+joblib==1.5.0
+scikit-learn==1.4.0
+
+# --- Redis Client ---
+redis==5.0.4

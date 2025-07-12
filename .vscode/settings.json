@@ -1,0 +1,4 @@
+{
+    // Use PowerShell as the default integrated terminal
+    "terminal.integrated.defaultProfile.windows": "PowerShell"
+}

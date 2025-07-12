@@ -1,0 +1,16 @@
+2025-07-01 15:02:55,653 - INFO - Train: 2018-04-01 - 2018-12-31
+2025-07-01 15:03:00,239 - INFO - Test: 2018-08-01 - 2018-10-01
+2025-07-01 15:25:17,599 - INFO - Train: 2018-04-01 - 2018-12-31
+2025-07-01 15:25:19,852 - INFO - Test: 2018-08-01 - 2018-10-01
+2025-07-01 16:25:56,149 - INFO - Train: 2018-04-01 - 2018-12-31
+2025-07-01 16:25:58,814 - INFO - Test: 2018-08-01 - 2018-10-01
+2025-07-01 16:25:58,885 - INFO - Train: 2018-04-01 - 2018-12-31
+2025-07-01 16:25:59,303 - INFO - Test: 2018-08-01 - 2018-10-01
+2025-07-01 16:28:15,408 - INFO - BaggingSequentialDataset initialized successfully.
+2025-07-01 16:28:15,828 - INFO - BaggingSequentialDataset initialized successfully.
+2025-07-01 16:28:33,838 - INFO - BaggingSequentialDataset initialized successfully.
+2025-07-01 16:28:40,536 - INFO - BaggingSequentialDataset initialized successfully.
+2025-07-01 16:29:28,037 - INFO - Train: 2018-04-01 - 2018-07-30
+2025-07-01 16:29:30,485 - INFO - Test: 2018-08-01 - 2018-10-01
+2025-07-01 16:29:43,869 - INFO - Starting customer_id
+2025-07-01 16:29:57,033 - INFO - Starting TERMINAL_id

@@ -1,0 +1,5 @@
+2025-07-06 10:01:09,568 - INFO - Train: 2018-05-01 - 2018-06-05 00:00:00
+2025-07-06 10:01:09,964 - INFO - Test: 2018-06-12 00:00:00 - 2018-06-19 00:00:00
+2025-07-06 10:01:10,847 - INFO - total pos: 3036, total pos after process: 341921
+2025-07-06 10:01:10,847 - INFO - total data: 344957, total data after process: 683842
+2025-07-06 10:01:10,847 - INFO - tensor(1., dtype=torch.float64)
